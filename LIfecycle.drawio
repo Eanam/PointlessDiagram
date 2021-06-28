@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T15:38:16.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="NKdLJ13YHqRhAuMoNify" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T15:41:47.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="xibOtNwjGd024_CNMc7s" version="14.7.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1671" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,6 +219,12 @@
         </mxCell>
         <mxCell id="ooI7DmoPlPqBt7XE1KKF-47" value="RESUMED" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1230" y="1060" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ooI7DmoPlPqBt7XE1KKF-48" value="&lt;font style=&quot;font-size: 17px&quot;&gt;State&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="1070" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ooI7DmoPlPqBt7XE1KKF-49" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Event&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="1260" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
