@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T16:29:02.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="pzoLkpUmZevwLXvGI4UU" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-28T16:38:57.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="U_xCw4enTb2J_s4-XIoA" version="14.7.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1671" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,8 +313,8 @@
         <mxCell id="ooI7DmoPlPqBt7XE1KKF-71" value="event,getTargetState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="1820" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ooI7DmoPlPqBt7XE1KKF-73" value="判断当前状态在老状态之前还是之后" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="693.75" y="1980" width="242.5" height="70" as="geometry" />
+        <mxCell id="ooI7DmoPlPqBt7XE1KKF-73" value="判断当前状态在LifyObserver老状态之前还是之后" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="666.88" y="1970" width="296.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ooI7DmoPlPqBt7XE1KKF-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ooI7DmoPlPqBt7XE1KKF-75" target="ooI7DmoPlPqBt7XE1KKF-82">
           <mxGeometry relative="1" as="geometry" />
