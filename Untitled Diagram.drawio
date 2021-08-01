@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T13:20:51.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="_Dckq14wSVs3oFuc_jQU" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-01T13:31:20.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="whMEIPmaVmOoNClYnlFf" version="14.9.3" type="github">
   <diagram id="doaO3T_NP-BhFEfy7yjg" name="Page-1">
     <mxGraphModel dx="781" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,81 @@
             <mxPoint x="210" y="215" as="sourcePoint" />
             <mxPoint x="344" y="261.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-18" value="ContextImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="250" width="190" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-19" value="- mResources: Resources" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-18">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-18">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-21" value="+ getResources(): Resources" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-18">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-33" value="+ getAsset(): AssetManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-18">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-23" value="Context" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-26" value="...." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-23">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-27" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.512;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqEycvacwhCloaUmMCjN-9" target="gqEycvacwhCloaUmMCjN-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-28" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gqEycvacwhCloaUmMCjN-18" target="gqEycvacwhCloaUmMCjN-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="424" y="230" as="sourcePoint" />
+            <mxPoint x="531.6800000000001" y="143.32600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-29" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1.013;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gqEycvacwhCloaUmMCjN-10" target="gqEycvacwhCloaUmMCjN-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#d80073;strokeColor=#A51F43;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-31" value="Context就是Facade设计模式，来调用复杂的子系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="380" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-34" value="Resources" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="190" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-35" value="- mAsset: AssetManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-34">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-34">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-38" value="+ getAsset(): AssetManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gqEycvacwhCloaUmMCjN-34">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-39" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqEycvacwhCloaUmMCjN-19" target="gqEycvacwhCloaUmMCjN-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1000" y="140.004" as="sourcePoint" />
+            <mxPoint x="1283.66" y="147.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#d80073;strokeColor=#A51F43;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="420" as="sourcePoint" />
+            <mxPoint x="1020" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqEycvacwhCloaUmMCjN-41" value="Resources就是Facade设计模式，&lt;br&gt;来调用复杂的AssetManager, 进行资源管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="385" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
